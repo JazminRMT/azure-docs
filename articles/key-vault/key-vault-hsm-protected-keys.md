@@ -33,6 +33,12 @@ Transferring HSM-protected keys to Key Vault is supported via two different meth
 |Thales|<ul><li>SafeNet Luna HSM 7 family with firmware version 7.3 or newer</li></ul>| [Use new BYOK method (preview)](hsm-protected-keys-vendor-agnostic-byok.md)|
 |nCipher|<ul><li>nShield family of HSMs</li></ul>|[Use legacy BYOK method](hsm-protected-keys-legacy.md)|
 
+Key Vault uses nCipher nShield family of HSMs and the relevant FIPS certificates are as follows:
+	
+HSM Model is nShield Solo F2 6000+
+	
+https://csrc.nist.gov/Projects/Cryptographic-Module-Validation-Program/Certificate/2643 
+https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2121
 
 ## Next steps
 
